@@ -2,15 +2,25 @@
     <head>
         <title>Registration Page</title>
     </head>
-    <body>
-        <h1>Add a New address </h1>
-        <label> Name </label>
-        <input type="text" required />
-        <label> Mobile No </label>
-        <input type="10-digit mobile number" required /> <br> </br>
-        <label> Pincode </label>
-        <input type="number" required />
-        <label> Locality </label>
-        <input type="text" /> <br></br>
+    <body> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64649.11908322631!2d77.64972661719682!3d12.97605727222818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14067cca9bdd%3A0x111bbe37cc24e71a!2sThe%20Leela%20Palace%20Bengaluru%20-%20Garden%20City&#39;s%20Only%20Modern%20Palace%20Hotel!5e0!3m2!1sen!2sin!4v1656656079685!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+            <h1>Add a New address </h1>
+            <input type="text" placeholder="Name" required /> &nbsp; &nbsp;
+            <input type="number" placeholder="10-digit mobile number" required /> <br> </br>
+            <input type="number" placeholder="Pincode" required />
+            <input type="text" placeholder=" Locality" /> <br></br>
+            <textarea cols="75" rows="5" placeholder="Address(Area and Street)"></textarea> <br></br>
+            <input type="text" placeholder="City/District/Town" />
+            <label> State </label>
+            <select>
+                <option>-Select state-</option>
+                <option>Andhra Pradesh</option>
+                <option>TamilNadu</option>
+            </select> <br></br>
+            <input type="text" placeholder="Landmark(optional)" />
+
+        </form>
+       
     </body>
 </html>
