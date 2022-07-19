@@ -1,0 +1,11 @@
+let b = [10,10,10,20,20,true, false,'Rajavel',{},[]]
+console.log(b)
+console.log(b[0],b[1])
+console.log(b[2])
+console.log(b[3])
+console.log(b[4])
+console.log(b[5])
+console.log(b[6])
+console.log(b[7])
+console.log(b[8])
+console.log(b[9])
