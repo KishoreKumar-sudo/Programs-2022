@@ -1,0 +1,1 @@
+let User = {name:"Kishore", email:"kk@gmail.com", password:123456789}
