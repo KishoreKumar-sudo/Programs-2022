@@ -25,7 +25,5 @@ class Savings_Account extends Account {
 }
 let sa1 = new Savings_Account(101, "Kishore", "kishore97@gmail.com", 25000, "male")
 
-console.log(sa1.get_Account_Details())
-console.log(sa1.get_Address())
-console.log(sa1.get_Account_Bal())
+//
 //class Current_Account extends Account { }
