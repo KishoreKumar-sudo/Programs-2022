@@ -5,7 +5,6 @@ let CompA = () => {
         emp_Id: 101,
         emp_Sal: 25000
     }
-
     return <div>
         <h1>Component A</h1>
         <hr />
