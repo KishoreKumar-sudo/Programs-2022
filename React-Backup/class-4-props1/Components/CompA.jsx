@@ -11,6 +11,4 @@ let CompA = () => {
         <CompB message={msg} details={emp_Details} />
     </div>
 }
-
-
 export default CompA
