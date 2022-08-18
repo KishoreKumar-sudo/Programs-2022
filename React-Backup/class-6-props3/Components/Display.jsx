@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 import User from './User'
-class Display extends React.Component {
+class Display extends Component {
     render() {
         return (
             <div className="container mt-5">

@@ -1,5 +1,5 @@
 import React from "react";
-import Display from "./Components/Display";
+import Display from "../../React-Backup/class-6-props3/Components/Display";
 // import Navbar from './Navbar/Navbar';
 // import CompA from "./PropsDrill/CompA";
 class App extends React.Component{
