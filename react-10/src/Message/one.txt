@@ -1,0 +1,6 @@
+what is State?
+React component - own data
+
+How to manage React state?
+Step 1: convert class properties to state object properties
+Step 2: to update state object - we have to use setState() method

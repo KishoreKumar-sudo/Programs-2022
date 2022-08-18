@@ -1,15 +1,19 @@
-import React from "react";
-import Display from "../../React-Backup/class-6-props3/Components/Display";
-// import Navbar from './Navbar/Navbar';
-// import CompA from "./PropsDrill/CompA";
+import React from 'react'
+import Counter from './Counter/Counter-Test'
+// import Navbar from './Navbar/Navbar'
+// import Message from './Message/Messagecopy'
 class App extends React.Component{
-render(){
-    return ( <div>
-        {/* <Navbar /> */}
-        {/* <CompA /> */}
+    render() {
+ return (
+    <div>
+      <h2>App Component</h2>
+      <hr/>
+      <Counter />
+{/* <Message /> */}
+{/* <Navbar /> */}
+    </div>
+ )
+    }
 
-<Display/>
-    </div>)
-}
 }
 export default App
