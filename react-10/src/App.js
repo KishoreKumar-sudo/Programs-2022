@@ -1,5 +1,5 @@
 import React from 'react'
-import Counter from './Counter/Counter-Test'
+import Counter from './Counter/Counter'
 // import Navbar from './Navbar/Navbar'
 // import Message from './Message/Messagecopy'
 class App extends React.Component{
