@@ -36,7 +36,10 @@ class Counter extends Component {
                                 <td>{this.state.name}</td>
                                 <td><img src={this.state.image} height="80px" alt="Buy Oil Packet" /></td>
                                 <td>{this.state.price}</td>
-                                <td><i className="fa fa-minus-circle" onClick={this.decrHandler}></i>{this.state.qty}<i onClick={this.incrHandler} className="fa fa-plus-square"></i></td>
+                                <td><>&nbsp;&nbsp;</>
+                                <button onClick={this.decrHandler}>-</button>
+                                     <span>QTY:{this.state.qty}</span><>&nbsp;</>
+                                    <button onClick={this.incrHandler}>+</button></td>
                                 <td>{this.state.qty * this.state.price}</td>
                             </tr>
                         </tbody>

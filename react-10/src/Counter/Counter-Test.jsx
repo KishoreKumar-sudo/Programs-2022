@@ -15,9 +15,8 @@ class Counter extends React.Component {
         return <div>
             <h1>Counter Example</h1>
             <>&nbsp;&nbsp;</>
-            <button onClick={this.decrHandler}>-</button>
-            <span>QTY:{this.state.qty}</span>
-            <>&nbsp;&nbsp;</>
+            <button onClick={this.decrHandler}>-</button>  
+            <span>QTY:{this.state.qty}&nbsp;&nbsp;&nbsp;</span>
             <button onClick={this.incrHandler}>+</button>
         </div>
     }

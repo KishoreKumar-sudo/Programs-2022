@@ -1,5 +1,9 @@
 import React from 'react'
-import Counter from './Counter/Counter'
+// import Salary from './Salary/Salary'
+// import Login from './FormsEx/Login'
+// import Registration from './FormsEx/Registration'
+// import Employee from './Employee/Employee'
+// import Counter from './Counter/Counter-Boot'
 // import Navbar from './Navbar/Navbar'
 // import Message from './Message/Messagecopy'
 class App extends React.Component{
@@ -8,7 +12,11 @@ class App extends React.Component{
     <div>
       <h2>App Component</h2>
       <hr/>
-      <Counter />
+      {/* <Registration /> */}
+      {/* <Salary /> */}
+      {/* <Login /> */}
+      {/* <Employee /> */}
+      {/* <Counter /> */}
 {/* <Message /> */}
 {/* <Navbar /> */}
     </div>
