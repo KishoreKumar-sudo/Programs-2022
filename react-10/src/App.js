@@ -1,4 +1,6 @@
 import React from 'react'
+import Registration from './FormsEx/Registration2'
+// import Coding from './Coding/Coding'
 // import Salary from './Salary/Salary'
 // import Login from './FormsEx/Login'
 // import Registration from './FormsEx/Registration'
@@ -10,8 +12,10 @@ class App extends React.Component{
     render() {
  return (
     <div>
-      <h2>App Component</h2>
-      <hr/>
+      {/* <h2>App Component</h2>
+      <hr/> */}
+      <Registration />
+      {/* <Coding /> */}
       {/* <Registration /> */}
       {/* <Salary /> */}
       {/* <Login /> */}
