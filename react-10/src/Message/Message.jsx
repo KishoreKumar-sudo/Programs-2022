@@ -1,24 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { gmAction, gnAction } from '../Redux/Message/message.action'
+// '../above the directory level'
 const Message = () => {
-// let msg = "Hello,Kishore"
-let [counter, setCounter] = useState(1)
-let [msg, setMsg] = useState("Hello,Kishore")
-// let [contacts, setContacts] = useState([])
-
-let gmHandler = () => {
-    setMsg("Gud Mrng")
-}
-let gnHandler = () => {
-    setMsg("Gud Nyt")
-}
-return <div>
-    <h1>Message:{msg}</h1>
-    <button onClick={gmHandler}>GM</button>
-    <button onClick={gnHandler}>GN</button>
-    <hr />
-    <h2>Counter:{counter}</h2>
-    <button onClick={() => { setCounter(counter - 1)}}>-</button>
-    <button onClick={() => { setCounter(counter + 1)}}>+</button>
-</div>
+    let message = useSelector((state) => {
+        return state.msg
+    })
+    // how to dispatch an action / redux action?
+    // using useDispatch-hook
+    
+    let dispatch = useDispatch()
+    let gmHandler = () => {
+        dispatch(gmAction())
+    }
+    let gnHandler = () => {
+        dispatch(gnAction())
+    }
+    return (
+        <div>
+            <h1>Message Component:{message}</h1>
+            <button onClick={gmHandler}>GM</button>
+            <button onClick={gnHandler}>GN</button>
+        </div>
+    )
 }
 export default Message
