@@ -20,7 +20,7 @@ const Message = () => {
         <div>
             <h1>Message Component:{message}</h1>
             <button onClick={gmHandler}>GM</button>
-            <button onClick={gnHandler}>GN</button>
+            <button onClick={gnHandler}>G N</button>
         </div>
     )
 }
