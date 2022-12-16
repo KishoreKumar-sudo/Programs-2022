@@ -19,7 +19,7 @@ const Message = () => {
     return (
         <div>
             <h1>Message Component:{message}</h1>
-            <button onClick={gmHandler}>GM</button>
+            <button onClick={gmHandler}>G M</button>
             <button onClick={gnHandler}>G N</button>
         </div>
     )
